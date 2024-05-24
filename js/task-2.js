@@ -1,3 +1,4 @@
+"use strict";
 const getUsersWithFriend = (users, friendName) => {
   const chekName = users.filter(({ friends }) => friends.includes(friendName));
   return chekName;
